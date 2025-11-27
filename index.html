@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Qusai Tailor — Portfolio</title>
+  <meta name="description" content="Qusai Tailor — frontend developer. Clean, modern Apple-style portfolio with premium pricing." />
+
+  <!-- Satoshi font (CDN) + fallback -->
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/satoshi" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav fade-up">
+    <div class="logo">Qusai Tailor</div>
+    <nav class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn btn-primary">Hire me</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero section-grid fade-up" id="hero">
+      <div class="hero-left">
+        <p class="eyebrow">Frontend • Landing Pages • Fast Delivery</p>
+        <h1 class="hero-title">Hi, I'm <span>Qusai Tailor</span>.</h1>
+        <p class="hero-sub">I build clean, modern websites with a premium UI/UX approach — pixel-perfect HTML &amp; CSS, fast delivery.</p>
+
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#projects">View my work</a>
+          <a class="btn btn-ghost" href="#pricing">Pricing</a>
+        </div>
+
+        <ul class="quick-stats">
+          <li><strong>Landing pages</strong><span>Fast delivery</span></li>
+          <li><strong>Multi-page sites</strong><span>Clean code</span></li>
+          <li><strong>Custom builds</strong><span>Pro UX</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card tilt" id="heroCard">
+          <!-- main local project image (preferred): -->
+          <img src="assets/hero.png" alt="Developer desk mockup" />
+          <!-- Alternative testing path (uncomment to test if your image is in /mnt/data): -->
+          <!-- <img src="/mnt/data/A_high-resolution_digital_photograph_showcases_a_m.png" alt="Developer desk mockup"> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section fade-up">
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card card-ghost">
+          <h3>AI Automation Agency</h3>
+          <p>Teal + cyber SaaS landing and automation workflows.</p>
+        </article>
+
+        <article class="project-card card-ghost">
+          <h3>Product Display</h3>
+          <p>Premium product pages — clean, conversion focused.</p>
+        </article>
+
+        <article class="project-card card-ghost">
+          <h3>Fitness Landing</h3>
+          <p>High-converting fitness pages with strong CTAs.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section fade-up">
+      <h2 class="section-title">Pricing — Clear &amp; Transparent</h2>
+
+      <div class="pricing-grid">
+        <div class="price-card">
+          <div class="price-head">Landing Page</div>
+          <div class="price-amount">₹2,500</div>
+          <div class="price-desc">Single-page high-converting landing with responsive design.</div>
+        </div>
+
+        <div class="price-card featured">
+          <div class="price-head">Multi-page Website</div>
+          <div class="price-amount">₹5,000+</div>
+          <div class="price-desc">Up to 5 pages, SEO-ready, fast performance.</div>
+        </div>
+
+        <div class="price-card">
+          <div class="price-head">Custom Website</div>
+          <div class="price-amount">₹10,000 – ₹25,000</div>
+          <div class="price-desc">Custom UI, integrations, or bespoke features.</div>
+        </div>
+
+        <div class="price-card">
+          <div class="price-head">Bug Fix / Small Task</div>
+          <div class="price-amount">₹600</div>
+          <div class="price-desc">Quick fixes, layout adjustments, minor improvements.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section fade-up">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div>
+          <p>I’m <strong>Qusai Tailor</strong> — frontend developer focused on performance, polished UI, and fast delivery. I turn ideas into production-ready landing pages and websites with clean code and professional communication.</p>
+          <ul class="about-list">
+            <li>Landing pages & SaaS UIs</li>
+            <li>Pixel-perfect HTML & CSS</li>
+            <li>Fast delivery & clear communication</li>
+          </ul>
+        </div>
+
+        <aside class="glass">
+          <h4>Quick pricing</h4>
+          <p><strong>Landing page — ₹2,500</strong></p>
+          <p><strong>Bug Fix — ₹600</strong></p>
+          <p><strong>Multi-page — ₹5,000+</strong></p>
+          <p><strong>Custom — ₹10,000 – ₹25,000</strong></p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section fade-up">
+      <h2 class="section-title">Contact</h2>
+      <p>Email: <a href="mailto:hello@qusaitailor.com">hello@qusaitailor.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+    </section>
+
+  </main>
+
+  <a class="float-btn" href="#contact" aria-label="contact">✉</a>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Qusai Tailor</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
